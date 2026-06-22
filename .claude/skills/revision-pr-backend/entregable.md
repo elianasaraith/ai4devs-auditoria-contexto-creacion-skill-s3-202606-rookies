@@ -20,7 +20,7 @@
 ## 2. SKILL.md de la skill creada (Parte B)
 
 ---
-name: backend-pr-review
+name: revision-pr-backend
 description: Usa esta skill cuando necesites revisar cambios de código o Pull Requests en proyectos backend con TypeScript, NestJS, APIs, DTOs, servicios, consultas a base de datos o integraciones externas.
 ---
 
@@ -88,7 +88,7 @@ No exponer secretos, credenciales ni información sensible.
 
 ## 3. Diario de decisiones
 
-*Skill creada: backend-pr-review — Skill para revisar cambios backend en proyectos TypeScript/NestJS antes de subir o aprobar un Pull Request.*
+*Skill creada: revision-pr-backend — Skill para revisar cambios backend en proyectos TypeScript/NestJS antes de subir o aprobar un Pull Request.*
 
 *Decisiones de diseño tomadas:*
 - Decidí hacer una skill de revisión de Pull Request porque es algo que se acerca bastante a mi día a día como desarrolladora backend.
@@ -118,7 +118,7 @@ No exponer secretos, credenciales ni información sensible.
 ### Resultado de la prueba (Paso 8)
 
 - ¿Se activó cuando lo esperabas?
-Probé la skill desde Claude Code usando el prompt: “Usa la skill backend-pr-review para revisar los cambios actuales del repositorio”, la skill se activó cuando la mencioné explícitamente por nombre.
+Probé la skill desde Claude Code usando el prompt: “Usa la skill revision-pr-backend para revisar los cambios actuales del repositorio”, la skill se activó cuando la mencioné explícitamente por nombre.
 - ¿El resultado fue el que querías?
 El resultado fue útil porque respondió con una estructura de revisión: resumen del cambio, hallazgos importantes (criticos, altos, medios, bajos) y recomendación. Falto que en la recomendacion sea un poco mas detallista.
 
