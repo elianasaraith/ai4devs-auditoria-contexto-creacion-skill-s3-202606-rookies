@@ -1,18 +1,36 @@
-# Entregas
+Ejercicio S3 - Auditoría de Contexto y Creación de Skill
 
-Deja aquí tu entrega del ejercicio de la Sesión 3.
+Descripción
 
-## Cómo entregar
+Este repositorio contiene la entrega del ejercicio previo a la Sesión 3.
 
-1. Crea una **carpeta con tu nombre o usuario** dentro de esta carpeta `entregas/`.
-   Ejemplo: `entregas/jane-doe/`.
-2. Copia dentro la plantilla [`PLANTILLA-entregable.md`](PLANTILLA-entregable.md) y renómbrala
-   (por ejemplo `entregable.md`), o crea tu propio documento único en Markdown.
-3. Tu documento debe contener las tres cosas que pide el [README principal](../README.md):
-   - Los 3-5 hallazgos de la auditoría (Parte A).
-   - El contenido de tu `SKILL.md`.
-   - El diario de decisiones completo, incluyendo el resultado de la prueba.
-4. Abre un Pull Request hacia el repositorio original.
+El objetivo del ejercicio fue:
 
-> ⚠️ **Privacidad:** no subas código propietario ni secretos de tu proyecto real. En la Parte A
-> solo van tus **hallazgos** (descripciones de qué no supo inferir el agente), nunca el código.
+* Evaluar qué tan bien un copiloto puede comprender un proyecto únicamente leyendo el código.
+* Identificar información importante que no puede inferirse automáticamente.
+* Diseñar y crear una skill personalizada para Claude Code.
+* Probar la skill y documentar las decisiones tomadas durante su creación.
+
+Contenido
+
+Parte A - Auditoría de contexto
+
+Se realizó una exploración del proyecto utilizando Claude Code para identificar:
+
+* Qué aspectos del proyecto pudo comprender correctamente.
+* Qué información no pudo inferir y requeriría documentación o memoria de proyecto.
+
+Los hallazgos se encuentran documentados en el archivo de entrega.
+
+Parte B - Creación de Skill
+
+Se creó la siguiente skill:
+
+Nombre: backend-pr-review
+
+Propósito: apoyar la revisión de Pull Requests y cambios de código en proyectos backend desarrollados con TypeScript y NestJS.
+
+Ubicación:
+
+entregas/eliana-rodriguez/.claude/skills/backend-pr-review/SKILL.md
+
