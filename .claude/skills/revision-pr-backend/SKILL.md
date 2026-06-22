@@ -1,5 +1,5 @@
 ---
-name: backend-pr-review
+name: revision-pr-backend
 description: Usa esta skill cuando necesites revisar cambios de código o Pull Requests en proyectos backend con TypeScript, NestJS, APIs, DTOs, servicios, consultas a base de datos o integraciones externas.
 ---
 
